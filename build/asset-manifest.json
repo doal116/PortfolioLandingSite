@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/PortfolioLandingSite/static/css/main.6f13c2c2.css",
+    "main.js": "/PortfolioLandingSite/static/js/main.1ee78e71.js",
+    "static/media/alexBulganinCv.pdf": "/PortfolioLandingSite/static/media/alexBulganinCv.eede7641132c8e809bd8.pdf",
+    "static/media/ecommerce.jpg": "/PortfolioLandingSite/static/media/ecommerce.22b78e642e9c0aada693.jpg",
+    "static/media/frontEndLibraries.jpg": "/PortfolioLandingSite/static/media/frontEndLibraries.4d06dad197b3e77b5cdc.jpg",
+    "static/media/javascript.jpg": "/PortfolioLandingSite/static/media/javascript.b3b53eb9cd2898cdb2cd.jpg",
+    "static/media/responsiveWebDesign.jpg": "/PortfolioLandingSite/static/media/responsiveWebDesign.8fce06384ba5da89f6c9.jpg",
+    "static/media/relationalDatabase.jpg": "/PortfolioLandingSite/static/media/relationalDatabase.4d1e55169eae4e390edd.jpg",
+    "static/media/markdownEditor.jpg": "/PortfolioLandingSite/static/media/markdownEditor.48f60493d447a5af43d9.jpg",
+    "static/media/technicalDocumentationPage.jpg": "/PortfolioLandingSite/static/media/technicalDocumentationPage.867af7731bb3285976b0.jpg",
+    "static/media/react.svg": "/PortfolioLandingSite/static/media/react.fc1b67a204d32fefbe37410869c1783a.svg",
+    "static/media/bash.svg": "/PortfolioLandingSite/static/media/bash.9c687be22aa6bf42cf8341b98603eac3.svg",
+    "static/media/node.svg": "/PortfolioLandingSite/static/media/node.7a1a9c8feb751dae46097cba383d1202.svg",
+    "static/media/python.svg": "/PortfolioLandingSite/static/media/python.00e9547a61fb34e28eb30d9e236d644f.svg",
+    "static/media/c.svg": "/PortfolioLandingSite/static/media/c.e8aec4985d367c49278e387169576257.svg",
+    "static/media/git.svg": "/PortfolioLandingSite/static/media/git.ed2293b384ca4fd5db38ccc2b43e4e0e.svg",
+    "static/media/js.svg": "/PortfolioLandingSite/static/media/js.4b0712ca002ae58a7bcbab7d82579555.svg",
+    "static/media/github.svg": "/PortfolioLandingSite/static/media/github.de965c81b0be5a764bd6c8c41694d033.svg",
+    "static/media/mongodb.svg": "/PortfolioLandingSite/static/media/mongodb.e656a80023f3acbefc2b8e0a7bb83884.svg",
+    "index.html": "/PortfolioLandingSite/index.html",
+    "static/media/linkedin.svg": "/PortfolioLandingSite/static/media/linkedin.b97a678466ff5e1ca820f32acacd118c.svg",
+    "main.6f13c2c2.css.map": "/PortfolioLandingSite/static/css/main.6f13c2c2.css.map",
+    "main.1ee78e71.js.map": "/PortfolioLandingSite/static/js/main.1ee78e71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f13c2c2.css",
+    "static/js/main.1ee78e71.js"
+  ]
+}
