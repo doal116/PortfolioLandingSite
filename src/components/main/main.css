@@ -1,0 +1,347 @@
+#aboutMe {
+  padding-bottom: 64px;
+}
+#aboutMe .info {
+  margin: 100px auto auto auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#aboutMe .info .leftSide .hireCv .downloadCv, #aboutMe .info .leftSide .hireCv .hireMe {
+  cursor: pointer;
+  height: 56px;
+  border: none;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 600;
+}
+#aboutMe .info .leftSide .hireCv {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  -moz-column-gap: 22px;
+       column-gap: 22px;
+}
+#aboutMe .info .leftSide .hireCv .hireMe {
+  background-color: #3F3F3F;
+  color: white;
+  width: 138px;
+  transition: 1.2s;
+}
+#aboutMe .info .leftSide .hireCv .hireMe:hover {
+  color: #3F3F3F;
+  border: 1px solid rgba(80, 80, 80, 0.2196078431);
+  background-color: transparent;
+}
+#aboutMe .info .leftSide .hireCv .downloadCv {
+  width: 186px;
+  color: #3F3F3F;
+  border: 1px solid rgba(80, 80, 80, 0.2196078431);
+  background-color: transparent;
+  transition: 1.2s;
+}
+#aboutMe .info .leftSide .hireCv .downloadCv:hover {
+  background-color: #3F3F3F;
+  color: white;
+}
+#aboutMe .info .rightSide {
+  position: relative;
+  justify-self: end;
+  margin-left: 30px;
+  width: 220px;
+}
+#aboutMe .info .rightSide .skills {
+  width: inherit;
+  overflow-x: auto;
+  padding: 0px 0px 20px 0px;
+  position: relative;
+  height: 200px;
+}
+#aboutMe .info .rightSide .skills .skill {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  animation: 32s autoplay2 infinite ease-in-out;
+  width: 200px;
+  height: 200px;
+  background-color: #3F3F3F;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 2px 15px rgb(147, 147, 147);
+}
+#aboutMe .info .rightSide .skills .skill img {
+  margin: auto 0px auto 0px;
+  max-width: 50%;
+}
+#aboutMe .info .rightSide .skills .skill .experience {
+  padding: 0px 0px 16px 0px;
+}
+#aboutMe .info .rightSide .skills .skill span {
+  color: white;
+  font-family: "Source Sans Pro";
+}
+#aboutMe .info .rightSide .skills > *:nth-child(1) {
+  animation-delay: 0s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(2) {
+  animation-delay: 4s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(3) {
+  animation-delay: 8s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(4) {
+  animation-delay: 12s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(5) {
+  animation-delay: 16s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(6) {
+  animation-delay: 20s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(7) {
+  animation-delay: 24s;
+}
+#aboutMe .info .rightSide .skills > *:nth-child(8) {
+  animation-delay: 28s;
+}
+@keyframes autoplay2 {
+  0% {
+    left: 100%;
+  }
+  4% {
+    left: 0%;
+  }
+  10% {
+    left: 0%;
+  }
+  18% {
+    left: -100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+#aboutMe .info .rightSide .skills::-webkit-scrollbar {
+  background-color: transparent;
+  height: 0px;
+}
+
+#certificates {
+  width: 100%;
+  margin: 0px auto 0px auto;
+  padding: 100px 0px 100px 0px;
+  background-color: #EBEBEB;
+}
+#certificates h1 {
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+#certificates .certificateDisplay {
+  display: block;
+  margin: 0px auto 0px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 10px;
+}
+#certificates .certificateDisplay a {
+  text-decoration: none;
+}
+#certificates .certificateDisplay a .certificateBox {
+  padding: 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: flex;
+  border-radius: 10px;
+}
+#certificates .certificateDisplay a .certificateBox img {
+  border-radius: inherit;
+  position: absolute;
+  transition: filter 1s;
+}
+#certificates .certificateDisplay a .certificateBox .certificateInfo {
+  margin-bottom: -5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  font-family: "Source Sans Pro";
+  padding: 10px 0px 16px 16px;
+  filter: brightness(100%);
+  background-color: #3F3F3F;
+  opacity: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#certificates .certificateDisplay a .certificateBox .certificateInfo .name {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+#certificates .certificateDisplay a .certificateBox .certificateInfo .issuingOrg {
+  align-self: flex-start;
+  color: rgb(255, 255, 255);
+}
+#certificates .certificateDisplay .certificateBox:hover img {
+  filter: brightness(50%);
+}
+#certificates .certificateDisplay .certificateBox:hover .certificateInfo {
+  animation: certificateBoxinfo 1s forwards ease-in-out;
+}
+@keyframes certificateBoxinfo {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+#portfolio {
+  text-align: center;
+  font-family: "Source Sans Pro";
+}
+#portfolio p {
+  margin: 0px auto 0px auto;
+  width: 400px;
+}
+#portfolio .portfolioDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 24px;
+       column-gap: 24px;
+  row-gap: 24px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0px auto 0px auto;
+  padding: 50px 0px 50px 0px;
+}
+#portfolio .portfolioDisplay a {
+  text-decoration: none;
+  color: inherit;
+}
+#portfolio .portfolioDisplay .projectBox {
+  border: 1px solid #bdbdbd;
+  cursor: pointer;
+  width: 300px;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: width 0.5s;
+  padding: 20px 10px 30px 10px;
+}
+#portfolio .portfolioDisplay .projectBox .name {
+  font-size: 25px;
+}
+#portfolio .portfolioDisplay .projectBox img {
+  max-width: 300px;
+}
+#portfolio .portfolioDisplay .projectBox div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#portfolio .portfolioDisplay .projectBox div .description {
+  text-align: center;
+  display: block;
+  width: 280px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+#portfolio .portfolioDisplay .projectBox:hover {
+  width: 310px;
+  height: fit-content10px;
+  box-shadow: 1px 1px 10px #676767;
+}
+
+/* Different view sizing */
+/* computer view */
+@media (min-width: 1024px) {
+  #aboutMe .info {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+  #aboutMe .info .leftSide {
+    width: 531px;
+  }
+  #certificates .certificateDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #certificates .certificateDisplay .certificateBox {
+    height: 300px;
+    width: 380px;
+  }
+  #certificates .certificateDisplay .certificateBox img {
+    max-width: 380px;
+  }
+}
+/* phone and table view*/
+@media (max-width: 482px) {
+  #aboutMe {
+    align-items: center;
+  }
+  #aboutMe .info {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    width: auto;
+  }
+  #aboutMe .info .leftSide {
+    margin: 0px 24px 0px 24px;
+    width: auto;
+  }
+  #certificates .certificateDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+  }
+  #certificates .certificateDisplay .certificateBox {
+    height: 285px;
+    width: 80vw;
+  }
+  #certificates .certificateDisplay .certificateBox img {
+    max-width: 80vw;
+  }
+  #portfolio p {
+    width: 90vw;
+  }
+}
+@media (min-width: 482px) and (max-width: 1024px) {
+  #aboutMe .info {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    width: 70%;
+  }
+  #aboutMe .info .leftSide {
+    margin: 0px 24px 0px 24px;
+  }
+  #certificates .certificateDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 32px;
+  }
+  #certificates .certificateDisplay .certificateBox {
+    height: 250px;
+    width: 320px;
+  }
+  #certificates .certificateDisplay .certificateBox img {
+    max-width: 320px;
+  }
+  #portfolio p {
+    width: 90vw;
+  }
+}
+/*----------------------*//*# sourceMappingURL=main.css.map */
