@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortfolioLandingSite/static/css/main.6f13c2c2.css",
-    "main.js": "/PortfolioLandingSite/static/js/main.4b40ff97.js",
+    "main.js": "/PortfolioLandingSite/static/js/main.0dc371ec.js",
     "static/media/alexBulganinCv.pdf": "/PortfolioLandingSite/static/media/alexBulganinCv.e9c79649459a02c0376f.pdf",
     "static/media/ecommerce.jpg": "/PortfolioLandingSite/static/media/ecommerce.22b78e642e9c0aada693.jpg",
     "static/media/frontEndLibraries.jpg": "/PortfolioLandingSite/static/media/frontEndLibraries.4d06dad197b3e77b5cdc.jpg",
@@ -22,10 +22,10 @@
     "index.html": "/PortfolioLandingSite/index.html",
     "static/media/linkedin.svg": "/PortfolioLandingSite/static/media/linkedin.b97a678466ff5e1ca820f32acacd118c.svg",
     "main.6f13c2c2.css.map": "/PortfolioLandingSite/static/css/main.6f13c2c2.css.map",
-    "main.4b40ff97.js.map": "/PortfolioLandingSite/static/js/main.4b40ff97.js.map"
+    "main.0dc371ec.js.map": "/PortfolioLandingSite/static/js/main.0dc371ec.js.map"
   },
   "entrypoints": [
     "static/css/main.6f13c2c2.css",
-    "static/js/main.4b40ff97.js"
+    "static/js/main.0dc371ec.js"
   ]
 }
