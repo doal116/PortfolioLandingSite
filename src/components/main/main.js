@@ -136,7 +136,7 @@ function Main() {
         }, {
             name: 'React.js',
             image: react,
-            experience: '6 months of experience'
+            experience: '9 months of experience'
         }, {
             name: 'Python',
             image: python,
