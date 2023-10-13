@@ -41,8 +41,8 @@ const AboutMe = ({ skills }) => {
             <div className="info">
                 <div className='leftSide'>
                     <h1>About Me</h1>
-                    <p>I'm an eager and meticulous full-stack developer looking for a junior-level position with a company to put my coding abilities to use, solve challenging issues, and aid in a prompt completion of projects.</p>
-                    
+                    <p>I am a MERN Stack developer who is passionate and eager to develop in a team atmosphere. With an open-minded attitude, I am always prepared to embrace and acquire new skills.</p>
+
                     <div className='hireCv'>
                         <a href="mailto:bulganinbralex@yahoo.com" ><button className='hireMe' >HIRE ME</button></a>
                         <a href={alexBulganinCv} target="__blank" >
@@ -215,7 +215,7 @@ function Main() {
     ];
     return (
         <main>
-            <AboutMe skills={skills}  />
+            <AboutMe skills={skills} />
             <Certificates certificates={certificates} />
             <Portfolio portfolio={portfolio} />
         </main>
