@@ -132,7 +132,7 @@ function Main() {
         {
             name: 'JavaScript',
             image: js,
-            experience: '7 months of experience'
+            experience: '1 year+ of experience'
         }, {
             name: 'React.js',
             image: react,
@@ -148,22 +148,22 @@ function Main() {
         }, {
             name: 'Bash',
             image: bash,
-            experience: '4 months of experience'
+            experience: '1 year+ of experience'
         },
         {
             name: 'Git',
             image: git,
-            experience: '1 year of experience'
+            experience: '2 year of experience'
         },
         {
             name: 'mongodb',
             image: mongodb,
-            experience: '3 months of experience'
+            experience: '1year of experience'
         },
         {
             name: 'node.js',
             image: node,
-            experience: '4 months of experience'
+            experience: '9 months of experience'
         }
     ];
     const certificates = [
