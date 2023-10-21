@@ -15,7 +15,7 @@ import relationalDatabase from '../certifications/relationalDatabase.jpg';
 import frontEndLibraries from '../certifications/frontEndLibraries.jpg';
 import javaScriptAlgo from '../certifications/javascript.jpg';
 import alexBulganinCv from '../alexBulganinCv.pdf';
-
+import BicryptoImage from './BicryptoImage.png';
 import propTypes from 'prop-types';
 
 
@@ -111,7 +111,7 @@ const Portfolio = ({ portfolio }) => {
     return (
         <section id='portfolio'>
             <h1>Portfolio</h1>
-            <p>The projects I have completed and those I am working on are listed below.</p>
+            <p>Find below a comprehensive list of both my completed projects and the ongoing initiatives I am currently engaged in.</p>
             <div className='portfolioDisplay'>
                 <PortfolioBox portfolio={portfolio} />
             </div>
@@ -195,11 +195,18 @@ function Main() {
     ];
     const portfolio = [
         {
-            name: 'E-commerce website',
-            description: 'The development of this online store is ongoing. The objective is to create a responsive, front-end and back-end integrated e-commerce website.',
+            name: 'Freshenescom',
+            description: 'Freshenescom (in development):  The objective is to create a responsive, front-end and back-end integrated e-commerce website.',
             image: ecommerce,
-            link: 'https://github.com/doal116/e-commerce-react-website'
+            link: 'https://e-commerce-react-website.pages.dev/'
         },
+        {
+            name: 'BICrypto',
+            description: "BIcrypto (in development): User-friendly platform for buying/selling cryptocurrencies in East Africa. Secure, convenient, wide range of coins, real-time data. Beginner-friendly interface. Join the exciting world of East African crypto with BIcrypto (in development).",
+            image: BicryptoImage,
+            link: 'https://bicryptofrontend.pages.dev/'
+        }
+        ,
         {
             name: 'React MarkDownEditor',
             description: 'Markdown Previewer that was built using HTML, JavaScript, SASSY CSS, and React.',
