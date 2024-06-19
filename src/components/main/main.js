@@ -132,38 +132,38 @@ function Main() {
         {
             name: 'JavaScript',
             image: js,
-            experience: '1 year+ of experience'
+            experience: `${(new Date()).getFullYear() - 2021} year of experience`
         }, {
             name: 'React.js',
             image: react,
-            experience: '1 year of experience'
+            experience: `${(new Date()).getFullYear() - 2021} years of experience`
         }, {
             name: 'Python',
             image: python,
-            experience: '2 years of experience'
+            experience: `${(new Date()).getFullYear() - 2020} years of experience`
         }, {
             name: 'C',
             image: C,
-            experience: '3 years of experience'
+            experience: `${(new Date()).getFullYear() - 2019} years of experience`
         }, {
             name: 'Bash',
             image: bash,
-            experience: '1 year+ of experience'
+            experience: `${(new Date()).getFullYear() - 2020} years of experience`
         },
         {
             name: 'Git',
             image: git,
-            experience: '2 year of experience'
+            experience: `${(new Date()).getFullYear() - 2019} years of experience`
         },
         {
             name: 'mongodb',
             image: mongodb,
-            experience: '1year of experience'
+            experience: `${(new Date()).getFullYear() - 2022} years of experience`
         },
         {
             name: 'node.js',
             image: node,
-            experience: '9 months of experience'
+            experience: `${(new Date()).getFullYear() - 2022} months of experience`
         }
     ];
     const certificates = [
