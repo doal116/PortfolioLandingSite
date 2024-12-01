@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortfolioLandingSite/static/css/main.6f13c2c2.css",
-    "main.js": "/PortfolioLandingSite/static/js/main.3d839c4e.js",
+    "main.css": "/PortfolioLandingSite/static/css/main.fcc5ab4b.css",
+    "main.js": "/PortfolioLandingSite/static/js/main.0d5e5888.js",
     "static/media/alexBulganinCv.pdf": "/PortfolioLandingSite/static/media/alexBulganinCv.820bfa2726471855733c.pdf",
     "static/media/ecommerce.jpg": "/PortfolioLandingSite/static/media/ecommerce.22b78e642e9c0aada693.jpg",
     "static/media/frontEndLibraries.jpg": "/PortfolioLandingSite/static/media/frontEndLibraries.4d06dad197b3e77b5cdc.jpg",
@@ -22,11 +22,11 @@
     "static/media/mongodb.svg": "/PortfolioLandingSite/static/media/mongodb.e656a80023f3acbefc2b8e0a7bb83884.svg",
     "index.html": "/PortfolioLandingSite/index.html",
     "static/media/linkedin.svg": "/PortfolioLandingSite/static/media/linkedin.b97a678466ff5e1ca820f32acacd118c.svg",
-    "main.6f13c2c2.css.map": "/PortfolioLandingSite/static/css/main.6f13c2c2.css.map",
-    "main.3d839c4e.js.map": "/PortfolioLandingSite/static/js/main.3d839c4e.js.map"
+    "main.fcc5ab4b.css.map": "/PortfolioLandingSite/static/css/main.fcc5ab4b.css.map",
+    "main.0d5e5888.js.map": "/PortfolioLandingSite/static/js/main.0d5e5888.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f13c2c2.css",
-    "static/js/main.3d839c4e.js"
+    "static/css/main.fcc5ab4b.css",
+    "static/js/main.0d5e5888.js"
   ]
 }
