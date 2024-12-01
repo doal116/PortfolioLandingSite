@@ -163,7 +163,7 @@ function Main() {
         {
             name: 'node.js',
             image: node,
-            experience: `${(new Date()).getFullYear() - 2022} months of experience`
+            experience: `${(new Date()).getFullYear() - 2022} years of experience`
         }
     ];
     const certificates = [
